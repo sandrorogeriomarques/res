@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
   <title>Rest</title>
 </head>
+
 <body>
   <header>
     <div class="header-bg"></div>
     <h1>Minha Página Responsiva</h1>
-    <a class="weatherwidget-io" href="https://forecast7.com/pt/n25d43n49d27/curitiba/" data-label_1="CURITIBA" data-label_2="Clima" data-icons="Climacons Animated" data-textcolor="#ffffff" data-suncolor="#eeff00" data-mooncolor="#fff81c" data-cloudfill="#90c8f4" data-raincolor="#0063fc" >CURITIBA Clima</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
+    <a class="weatherwidget-io" href="https://forecast7.com/pt/n25d43n49d27/curitiba/" data-label_1="CURITIBA"
+      data-label_2="Clima" data-icons="Climacons Animated" data-textcolor="#ffffff" data-suncolor="#eeff00"
+      data-mooncolor="#fff81c" data-cloudfill="#90c8f4" data-raincolor="#0063fc">CURITIBA Clima</a>
+    <script>
+      !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+    </script>
   </header>
-  
+
   <nav>
     <ul>
       <li><a href="#">Início</a></li>
@@ -23,7 +27,7 @@
       <li><a href="#">Contato</a></li>
     </ul>
   </nav>
-  
+
   <main>
     <section>
       <h2>Seção 1</h2>
@@ -33,12 +37,14 @@
           <button class="tab-button" onclick="changeTab(1)">Tab 2</button>
           <button class="tab-button" onclick="changeTab(2)">Tab 3</button>
         </div>
-        <div class="tab-content active">Conteúdo da Tab 1...</div>
+        <div class="tab-content active">Conteúdo da Tab 1...<iframe style="border: 0;"
+            src="https://www.google.com/maps/embed?pb=!4v1688614008896!6m8!1m7!1spPN6LZvsVSxeR_HMAmrnzw!2m2!1d-25.39427541422155!2d-49.2254256354739!3f61.24204185645273!4f-4.503500861058626!5f0.7820865974627469"
+            width="100%" height="400" allowfullscreen="allowfullscreen"></iframe></div>
         <div class="tab-content">Conteúdo da Tab 2...</div>
         <div class="tab-content">Conteúdo da Tab 3...</div>
       </div>
     </section>
-    
+
     <section>
       <h2>Seção 2</h2>
       <div class="tab-container">
@@ -53,12 +59,12 @@
       </div>
     </section>
   </main>
-  
+
   <footer>
     <p>&copy; 2023 Minha Página Responsiva</p>
   </footer>
-  
+
   <script src="js/script.js"></script>
 </body>
-</html>
 
+</html>
