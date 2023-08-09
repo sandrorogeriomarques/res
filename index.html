@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Rest</title>
+</head>
+<body>
+  <header>
+    <div class="header-bg"></div>
+    <h1>Minha Página Responsiva</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section>
+      <h2>Seção 1</h2>
+      <div class="tab-container">
+        <div class="tabs">
+          <button class="tab-button active" onclick="changeTab(0)">Tab 1</button>
+          <button class="tab-button" onclick="changeTab(1)">Tab 2</button>
+          <button class="tab-button" onclick="changeTab(2)">Tab 3</button>
+        </div>
+        <div class="tab-content active">Conteúdo da Tab 1...</div>
+        <div class="tab-content">Conteúdo da Tab 2...</div>
+        <div class="tab-content">Conteúdo da Tab 3...</div>
+      </div>
+    </section>
+    
+    <section>
+      <h2>Seção 2</h2>
+      <div class="tab-container">
+        <div class="tabs">
+          <button class="tab-button active" onclick="changeTab(3)">Tab 1</button>
+          <button class="tab-button" onclick="changeTab(4)">Tab 2</button>
+          <button class="tab-button" onclick="changeTab(5)">Tab 3</button>
+        </div>
+        <div class="tab-content active">Conteúdo da Tab 1...</div>
+        <div class="tab-content">Conteúdo da Tab 2...</div>
+        <div class="tab-content">Conteúdo da Tab 3...</div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Minha Página Responsiva</p>
+  </footer>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
+

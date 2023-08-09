@@ -1,0 +1,138 @@
+/* Reset genérico */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos do cabeçalho */
+header {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/imagem.jpg'); /* Substituir pela sua imagem */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+  z-index: -1;
+}
+
+/* ... Outros estilos ... */
+
+/* Estilos da navegação */
+nav {
+  background-color: #2B781F;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-list li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilos do ícone de hambúrguer */
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px auto;
+}
+
+/* Estilos responsivos */
+
+@media screen and (max-width: 600px) {
+  .nav-list {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    background-color: #215A17;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-list.active {
+    display: block;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+
+/* Estilos do conteúdo principal */
+main {
+  padding: 20px;
+  background-color: #F0F0F0; /* Alterado para a cor da paleta */
+}
+
+/* Estilos das abas */
+.tab-container {
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.tab-button {
+  border: none;
+  background-color: #0B1E08; /* Cor de fundo das abas */
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  background-color: #000000; /* Cor de fundo das abas ativas */
+}
+
+/* Estilos dos conteúdos das abas */
+.tab-content {
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #000000; /* Cor de fundo do rodapé */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+
